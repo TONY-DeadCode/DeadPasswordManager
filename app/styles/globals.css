@@ -1,0 +1,101 @@
+body {
+  color: white;
+  background: #131313;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the page takes at least the full viewport height */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3rem; /* Adjust the gap between buttons and content */
+  background-color: #222;
+  padding: 15px;
+  border-radius: 15px;
+  width: auto;
+  height: 150px;
+  align-items: center;
+}
+
+.box-button {
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #121212;
+  gap: 10px;
+  align-content: center;
+  justify-content: space-between;
+  height: -webkit-fill-available;
+  padding: 10px;
+  border-radius: 9px;
+  text-decoration: none;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  width: 100vw;
+  height: 50px;
+  top: 0;
+  position: absolute;
+  background: #222;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* Hide default scrollbar */
+}
+
+body {
+  height: 100vh;
+  overflow-y: scroll; /* Enable vertical scrollbar */
+  padding: 20px;
+}
+
+/* Customize scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #535353;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6e6e6e; /* Scrollbar thumb color on hover */
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 4px;
+}
+
+
+/* Hide default scrollbar arrows */
+::-webkit-scrollbar-button {
+  display: none;
+}
